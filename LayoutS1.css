@@ -1,0 +1,21 @@
+.Description {
+    position: relative;
+    display: block;
+    height:auto;
+}
+
+.Introduction {
+    text-align: left;
+    width: 90%;
+    position: relative;
+    display: block;
+}
+
+.Skills {
+    text-align: left;
+    width: 10%;
+    position: absolute;
+    top: 5%;
+    left: 90%;
+    display: block;
+}

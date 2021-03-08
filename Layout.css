@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman';
+    color: black;
+}
+
+body {
+    height: auto;
+    position: relative;
+}
+
+section {
+    position: relative;
+    width: inherit;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 50px;
+    margin-right: 80px;
+    min-height: 25vh;
+    height: auto;
+    align-items: center;
+    display: block;
+}
+
+br{
+    position:relative;
+    border-color:none;
+}
+
+p {
+    text-align:left;
+    font-size: 18px;
+    text-indent: 30px;
+    margin-left: 60px;
+    margin-right: 70px;
+    margin-top: 20px;
+}
