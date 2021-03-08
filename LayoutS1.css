@@ -2,23 +2,18 @@
     position: relative;
     display: flex;
     height: auto;
-    box-sizing: border-box;
 }
 
 .Introduction {
-    border:dotted;
     text-align: left;
     width: 90%;
-    position: relative;
-    display: block;
+    border: none
 }
 
 .Skills {
-    border:dashed;
     text-align: left;
     width: auto;
-    position: absolute;
-    top: 5%;
-    left: 90%;
-    display: block;
+    box-shadow: 5px 10px 18px 2px #888888;
+    box-sizing: content-box;
+    padding: 30px;
 }
