@@ -1,10 +1,12 @@
 .Description {
     position: relative;
     display: flex;
-    height:auto;
+    height: auto;
+    box-sizing: border-box;
 }
 
 .Introduction {
+    border:dotted;
     text-align: left;
     width: 90%;
     position: relative;
@@ -12,8 +14,9 @@
 }
 
 .Skills {
+    border:dashed;
     text-align: left;
-    width: 100%;
+    width: auto;
     position: absolute;
     top: 5%;
     left: 90%;

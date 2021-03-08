@@ -45,6 +45,7 @@
     justify-content: center;
     align-items: flex-start;
     align-content: flex-start;
+    box-sizing:border-box;
     height: 30vw;
     min-height: 175px;
     max-height: 550px;
@@ -73,7 +74,7 @@
         backface-visibility: hidden;
         transform: translateZ(0);
         background-image: url("Media/Mountain.png");
-        background-size: 100%;
+        background-size: 99%;
         background-attachment: fixed;
         animation: grow 100s linear 5ms infinite;
         transition: all 0.4s ease-in;
