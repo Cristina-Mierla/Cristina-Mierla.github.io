@@ -72,7 +72,7 @@
         -webkit-transform: translateZ(0);
         backface-visibility: hidden;
         transform: translateZ(0);
-        background-image: url("Mountain.png");
+        background-image: url("Media/Mountain.png");
         background-size: 100%;
         background-attachment: fixed;
         animation: grow 100s linear 5ms infinite;

@@ -1,6 +1,6 @@
 .Description {
     position: relative;
-    display: block;
+    display: flex;
     height:auto;
 }
 
@@ -13,7 +13,7 @@
 
 .Skills {
     text-align: left;
-    width: 10%;
+    width: 100%;
     position: absolute;
     top: 5%;
     left: 90%;
