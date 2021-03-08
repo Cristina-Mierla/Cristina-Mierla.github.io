@@ -85,6 +85,6 @@
     }
 
     50% {
-        transform: scale(1.2) translateY(-100px)
+        transform: scale(1.2) translateY(-80px)
     }
 }
