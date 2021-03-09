@@ -22,7 +22,6 @@ section {
     margin-right: 50px;
     min-height: 25vh;
     height: auto;
-    align-items: center;
 }
 
 br{
@@ -31,7 +30,7 @@ br{
 }
 
 p {
-    text-align:left;
+    text-align: justify;
     font-size: 18px;
     text-indent: 30px;
     margin-left: 40px;

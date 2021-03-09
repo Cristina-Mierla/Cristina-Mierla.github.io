@@ -13,8 +13,14 @@
 }
 
 .Pictures {
-    max-width: 70%;
+    position: sticky;
+    height:inherit;
     display: grid;
+    grid-area:inherit;
+    justify-content:end;
+    float: right;
+    margin: 5px;
+    text-align: center;
 }
 
 .PicChild {
