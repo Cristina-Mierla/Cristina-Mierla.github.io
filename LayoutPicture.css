@@ -13,11 +13,12 @@
 }
 
 .Pictures {
-    position: sticky;
-    height:inherit;
+    position: relative;
+    height: inherit;
+    width:250%;
     display: grid;
-    grid-area:inherit;
-    justify-content:end;
+    grid-area: inherit;
+    justify-content: end;
     float: right;
     margin: 5px;
     text-align: center;
