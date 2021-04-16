@@ -368,3 +368,27 @@ body {
     padding:2%;
   }
 }
+
+/* name fancy bar */
+
+.home-logo {
+    border-radius:200px;
+}
+
+    .home-logo::after {
+        content: '';
+        width: 5%;
+        height: 1px;
+        
+        position: absolute;
+        top: 65px;
+        left: 45px;
+        background-color:hsl(0, 0%, 100%);
+        border-radius: 200px;
+        transition: all 200ms ease;
+    }
+
+    .home-logo:hover::after {
+        left: 30%;
+        background-color:hsl(197, 56%, 48%);
+    }

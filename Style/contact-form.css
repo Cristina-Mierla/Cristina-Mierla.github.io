@@ -2,6 +2,10 @@
     display:block;
 }
 
+.fcf-h6{
+    font-family: -apple-system, Arial, sans-serif;
+}
+
 .fcf-body {
     z-index: 1;
     margin: 0;
