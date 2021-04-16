@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0 auto;
+    font-family: 'Times New Roman';
+    color: black;
+    width: inherit;
+}
+
+body {
+    height: auto;
+    box-sizing: border-box;
+    position: relative;
+    overflow-wrap: break-word;
+}
+
+section {
+    position: relative;
+    width: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+    min-height: 25vh;
+    height: auto;
+}
+
+br{
+    position:relative;
+    border-color:none;
+}
+
+p {
+    text-align: left;
+    font-size: 18px;
+    text-indent: 30px;
+    margin-left: 40px;
+    margin-right: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
