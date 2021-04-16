@@ -3,7 +3,9 @@
 <head>
   <script src="https://kit.fontawesome.com/3c8e7e8027.js" crossorigin="anonymous"></script>
   <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  <link rel="stylesheet" href="/Style/contact-form.css" />
   <link rel="stylesheet" href="/Style/ContactStyle.css" />
+
   <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>contact form</title>
@@ -17,13 +19,25 @@
       });
   </script>
 
+  <div class="contact-info">
+
+    <h3 class="contact-message">Thank you for viewing my portfolio! </h3>
+    <h3 class="contact-message">You can contact me at:</h3>
+    <ul class="contact-list">
+        <li class="contact-list-item"><a class="contact-phone" href="tel:+40735232340">Phone: 0735232340</a></li>
+        <li class="contact-list-item"><a class="contact-mail" href="mailto:mierla_cristina@yahoo.com">Email: mierla_cristina@yahoo.com</a></li>
+        <li class="contact-list-item"><a class="contact-linkedin" href="https://www.linkedin.com/in/cristina-mierl%C4%83/" target="_blank">LinkedIn</a></li>
+        <li class="contact-list-item"><a class="contact-github" href="https://github.com/Cristina-ubb" target="_blank">GitHub</a></li>
+    </ul>
+
+  </div>
   
 <div class="fcf-body">
 
     <div id="fcf-form">
-    <h3 class="fcf-h3">Contact us</h3>
+    <h3 class="fcf-h3">Leave me a message</h3>
 
-    <form id="fcf-form-id" class="fcf-form-class" method="post" action="Contact.php">
+    <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php">
         
         <div class="fcf-form-group">
             <label for="Name" class="fcf-label">Your name</label>
