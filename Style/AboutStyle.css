@@ -1,20 +1,41 @@
 .description{
-
 }
 
 .introduction{
-    width:93%;
-    font-family: -apple-system, Arial, sans-serif;
-    font-size: 2rem;
-    font-weight: 400;
+    margin:auto;
+    width:80%;
+    font-family: -apple-system, Arial, sans-serif; 
     padding:30px;
-    text-indent: 30px;
 }
 
+.intro-para{
+    font-size: 2rem;
+    font-weight: 400;
+    text-align: justify;
+    text-indent: 70px;
+}
+
+.introduction h5{
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin:auto;
+    text-align: center;
+}
+
+.introduction hr{
+    border-color:hsl(197, 56%, 48%);
+    border-width: 1px;
+}
+
+.profile-pic{ 
+    border:30px solid white;
+}
 
 .picture{
-    border:30px solid white;
-    float:right;
-    width: 50%;
+    display: block;
+    margin:auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 100px;
+    width: 60%;
     overflow: hidden;
 }
