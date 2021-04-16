@@ -113,12 +113,13 @@ body {
         margin-left: 15px;
     }
     .nav div.main_list {
-        z-index: 9;
+        z-index: 10; /* keep on top of other elements on the page */
         width: 100%;
         height: 0;
         overflow: hidden;
     }
     .nav div.show_list {
+        z-index: 10;
         height: auto;
         display: none;
     }
@@ -347,11 +348,9 @@ body {
 .affix {
     padding: 0;
     background-color: #111;
+    z-index: 10;
+    box-shadow: 0 0 0 9999px rgba(0,0,0,0.5);
 }
-
-
-
-
 
 
 .myH2 {
