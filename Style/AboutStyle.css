@@ -1,0 +1,20 @@
+.description{
+
+}
+
+.introduction{
+    width:93%;
+    font-family: -apple-system, Arial, sans-serif;
+    font-size: 2rem;
+    font-weight: 400;
+    padding:30px;
+    text-indent: 30px;
+}
+
+
+.picture{
+    border:30px solid white;
+    float:right;
+    width: 50%;
+    overflow: hidden;
+}

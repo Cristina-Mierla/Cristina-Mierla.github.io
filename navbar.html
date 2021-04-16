@@ -28,6 +28,10 @@
 
     <section class="home">
     </section>
+
+    <!-- <div style="height: 1000px">
+    </div> -->
+    
 <!-- Jquery needed -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="JS/Navbar.js"></script>
@@ -37,9 +41,11 @@
         $(window).scroll(function() {
             if ($(document).scrollTop() > 50) {
                 $('.nav').addClass('affix');
+                $('.home-logo').addClass('home-logo-affix');
                 console.log("OK");
             } else {
                 $('.nav').removeClass('affix');
+                $('.home-logo').removeClass('home-logo-affix');
             }
         });
     </script>

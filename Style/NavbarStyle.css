@@ -96,6 +96,30 @@ body {
     transition: all 0.4s ease;
 }
 
+/* name fancy bar */
+
+.home-logo {
+    border-radius:200px;
+}
+
+    .home-logo::after {
+        content: '';
+        width: 5rem;
+        height: 1px;
+        
+        position: absolute;
+        top: 65px;
+        left: 30px;
+        background-color:hsl(0, 0%, 100%);
+        border-radius: 200px;
+        transition: all 200ms ease;
+    }
+
+    .home-logo:hover::after {
+        left: 150px;
+        background-color:hsl(197, 56%, 48%);
+    }
+
 
 /* Media qurey section */
 
@@ -150,6 +174,23 @@ body {
     .nav div.media_button {
         display: block;
     }
+
+    .home-logo::after{
+        left:40px;
+    }
+
+    .home-logo:hover::after{
+        left:170px;
+    }
+
+    .home-logo-affix::after {
+        left: 40px;
+    }
+    
+    .home-logo-affix:hover::after {
+        left: 170px;
+    }
+    
 }
 
 
@@ -349,8 +390,29 @@ body {
     padding: 0;
     background-color: #111;
     z-index: 10;
-    box-shadow: 0 0 0 9999px rgba(0,0,0,0.5);
 }
+
+.home-logo-affix{
+    font-size: 62.5%;
+    border-radius:200px;
+}
+
+.home-logo-affix::after {
+        content: '';
+        width: 5rem;
+        height: 1px;
+        
+        position: absolute;
+        top: 45px;
+        left: 30px;
+        background-color:hsl(0, 0%, 100%);
+        transition: all 200ms ease;
+    }
+
+    .home-logo-affix:hover::after {
+        left: 150px;
+        background-color:hsl(197, 56%, 48%);
+    }
 
 
 .myH2 {
@@ -369,26 +431,3 @@ body {
   }
 }
 
-/* name fancy bar */
-
-.home-logo {
-    border-radius:200px;
-}
-
-    .home-logo::after {
-        content: '';
-        width: 5%;
-        height: 1px;
-        
-        position: absolute;
-        top: 65px;
-        left: 45px;
-        background-color:hsl(0, 0%, 100%);
-        border-radius: 200px;
-        transition: all 200ms ease;
-    }
-
-    .home-logo:hover::after {
-        left: 30%;
-        background-color:hsl(197, 56%, 48%);
-    }
