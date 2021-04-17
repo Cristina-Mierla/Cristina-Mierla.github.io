@@ -27,25 +27,25 @@
 }
 
 .contact-phone{
-    cursor: url('/Media/phone.png') ,auto;
+    cursor: url('/Media/cursor/phone.png') ,auto;
 }
 
 .contact-mail{
-    cursor: url('/Media/mail.png') ,auto;
+    cursor: url('/Media/cursor/mail.png') ,auto;
 }
 
 .contact-linkedin{
-    cursor: url('/Media/linkedin.png') ,auto;
+    cursor: url('/Media/cursor/linkedin.png') ,auto;
 }
 
 .contact-github{
-    cursor: url('/Media/github.png') ,auto;
+    cursor: url('/Media/cursor/github.png') ,auto;
 }
 
 .contact-instagram{
-    cursor: url('/Media/instagram.png') ,auto;
+    cursor: url('/Media/cursor/instagram.png') ,auto;
 }
 
 .contact-facebook{
-    cursor: url('/Media/facebook.png') ,auto;
+    cursor: url('/Media/cursor/facebook.png') ,auto;
 }

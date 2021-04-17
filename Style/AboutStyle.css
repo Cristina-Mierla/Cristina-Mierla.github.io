@@ -36,6 +36,52 @@
     margin:auto;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     border-radius: 100px;
-    width: 60%;
+    width: 700px;
     overflow: hidden;
+}
+
+.skills{
+    display: flex;
+    margin:auto;
+    position:relative;
+    padding: 40px 0px 40px 0px;
+    height: 150px;
+}
+
+.skill-item{
+    max-height: 96px;
+    padding:4px;
+}
+
+.i1{
+    transform:translate(0px, -25px) rotate(-5deg);
+}
+
+.i2{
+    transform: translate(10px, 20px) rotate(15deg);
+}
+
+.i3{
+    transform: translate(10px, -30px) rotate(0deg);
+}
+
+.i4{
+    transform: translate(10px, 40px) rotate(20deg);
+}
+
+.i5{
+    transform: translate(10px, -10px) rotate(-5deg);
+}
+
+.i6{
+    transform: translate(10px, 5px) rotate(4deg);
+}
+
+.i7{
+    transform: translate(10px, 35px) rotate(-10deg);
+}
+
+.i8{
+    transform: translate(20px, 30px) rotate(2deg);
+    max-height: 70px;
 }
