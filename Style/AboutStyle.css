@@ -58,7 +58,7 @@
 }
 
 .i2{
-    transform: translate(10px, 20px) rotate(15deg);
+    transform: translate(0px, 20px) rotate(15deg);
 }
 
 .i3{
@@ -67,18 +67,19 @@
 
 .i4{
     transform: translate(10px, 40px) rotate(20deg);
+    min-width: 90px;
 }
 
 .i5{
-    transform: translate(10px, -10px) rotate(-5deg);
+    transform: translate(0px, -10px) rotate(-5deg);
 }
 
 .i6{
-    transform: translate(10px, 5px) rotate(4deg);
+    transform: translate(0px, 5px) rotate(4deg);
 }
 
 .i7{
-    transform: translate(10px, 35px) rotate(-10deg);
+    transform: translate(0px, 35px) rotate(-10deg);
 }
 
 .i8{
