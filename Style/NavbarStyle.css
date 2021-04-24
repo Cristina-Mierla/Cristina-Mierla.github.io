@@ -79,10 +79,10 @@ body {
 
 .home {
     width: 100%;
-    height: 9vh;
+    height: 100px;
     background-image: url("/Media/background/Mountain2.jpg");
     background-position: center top;
-  background-size:cover;
+    background-size:cover;
 }
 
 .navTrigger {

@@ -2,6 +2,8 @@
 }
 
 .introduction{
+    display: block;
+    position:relative;
     margin:auto;
     width:80%;
     font-family: -apple-system, Arial, sans-serif; 
@@ -36,53 +38,134 @@
     margin:auto;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     border-radius: 100px;
-    width: 700px;
+    width: 80%;
     overflow: hidden;
+
+}
+
+.skills-wrapp{
+    display: line;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .skills{
-    display: flex;
-    margin:auto;
-    position:relative;
-    padding: 40px 0px 40px 0px;
-    height: 150px;
+    display:block;
+    position: inherit;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    height: 200px;
 }
 
 .skill-item{
+    position: relative;
+    resize: both;
     max-height: 96px;
-    padding:4px;
+    padding:2px;
+    width: 20vw;
+    max-width: max-content;
 }
 
 .i1{
-    transform:translate(0px, -25px) rotate(-5deg);
+    left: 50%;
+    transform:translate(-400%, -25px) rotate(-5deg);
 }
 
 .i2{
-    transform: translate(0px, 20px) rotate(15deg);
+    left: 50%;
+    transform: translate(-400%, 20px) rotate(15deg);
 }
 
 .i3{
-    transform: translate(10px, -30px) rotate(0deg);
+    left: 50%;
+    transform: translate(-380%, -30px) rotate(0deg);
 }
 
 .i4{
-    transform: translate(10px, 40px) rotate(20deg);
+    left: 50%;
+    transform: translate(-420%, 40px) rotate(20deg);
     min-width: 90px;
 }
 
 .i5{
-    transform: translate(0px, -10px) rotate(-5deg);
+    left: 50%;
+    transform: translate(-400%, -10px) rotate(-5deg);
 }
 
 .i6{
-    transform: translate(0px, 5px) rotate(4deg);
+    left: 50%;
+    transform: translate(-400%, 5px) rotate(4deg);
 }
 
 .i7{
-    transform: translate(0px, 35px) rotate(-10deg);
+    left: 50%;
+    transform: translate(-400%, 35px) rotate(-10deg);
 }
 
 .i8{
-    transform: translate(20px, 30px) rotate(2deg);
+    left: 50%;
+    transform: translate(-430%, 30px) rotate(2deg);
     max-height: 70px;
+    max-width: 86px;
+}
+
+@media screen and (max-width:768px) {
+
+    .skills{
+        height: 80px;
+    }
+
+    .skill-item{
+        position: relative;
+        resize: both;
+        max-height: 96px;
+        width: 7vw;
+        max-width: max-content;
+    }
+    
+    .i1{
+        left: 50%;
+        transform:translate(-430%, -15px) rotate(-5deg);
+    }
+    
+    .i2{
+        left: 50%;
+        transform: translate(-440%, 20px) rotate(15deg);
+    }
+    
+    .i3{
+        left: 50%;
+        transform: translate(-450%, -20px) rotate(0deg);
+    }
+    
+    .i4{
+        left: 50%;
+        transform: translate(-440%, 27px) rotate(20deg);
+        width: 8vw;
+        min-width: 8vw;
+    }
+    
+    .i5{
+        left: 50%;
+        transform: translate(-520%, -10px) rotate(-5deg);
+    }
+    
+    .i6{
+        left: 50%;
+        transform: translate(-530%, 0px) rotate(4deg);
+    }
+    
+    .i7{
+        left: 50%;
+        transform: translate(-550%, 25px) rotate(-10deg);
+    }
+    
+    .i8{
+        left: 50%;
+        transform: translate(-530%, 30px) rotate(2deg);
+        max-height: 70px;
+        max-width: 86px;
+    }
+
 }
