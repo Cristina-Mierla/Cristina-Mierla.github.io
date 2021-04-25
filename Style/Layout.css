@@ -1,11 +1,3 @@
-* {
-    padding: 0;
-    margin: 0 auto;
-    font-family: 'Times New Roman';
-    color: black;
-    width: inherit;
-}
-
 body {
     height: auto;
     box-sizing: border-box;

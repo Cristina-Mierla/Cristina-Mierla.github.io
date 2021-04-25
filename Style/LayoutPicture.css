@@ -45,7 +45,7 @@
 
 .vid{
     position:relative;
-    max-width:40%;
+    max-width:100%;
     max-height:auto;
     transition:1s;
 }
