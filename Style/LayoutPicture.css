@@ -25,7 +25,8 @@
 }
 
 .Pictures {
-    position: relative;
+    position: static;
+    z-index: 1;
     height: inherit;
     width:250%;
     display: grid;

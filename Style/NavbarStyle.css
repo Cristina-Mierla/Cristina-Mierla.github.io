@@ -1,6 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand:400,500,700');
-html,
-body {
+#head{
+    position: relative;
+    z-index:9999;
+}
+
+*{
+    z-index: 100;
+}
+html,body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -45,8 +52,7 @@ body {
 }
 
 .nav div.main_list ul {
-    z-index: 9;
-    width: 100%;
+    position: relative;
     height: 65px;
     display: flex;
     list-style: none;
@@ -55,7 +61,7 @@ body {
 }
 
 .nav div.main_list ul li {
-    z-index: 9;
+    position: relative;
     width: auto;
     height: 65px;
     padding: 0;
@@ -63,7 +69,7 @@ body {
 }
 
 .nav div.main_list ul li a {
-    z-index: 9;
+    position: relative;
     text-decoration: none;
     color: #fff;
     line-height: 65px;
@@ -137,22 +143,22 @@ body {
         margin-left: 15px;
     }
     .nav div.main_list {
-        position: relative;
-        z-index: 10; /* keep on top of other elements on the page */
+        position: static;
+        z-index: 100; /* keep on top of other elements on the page */
         width: 100%;
         height: 0;
         overflow: hidden;
     }
     .nav div.show_list {
+        display: block;
         position: relative;
-        z-index: 10;
         height: auto;
         display: none;
     }
     .nav div.main_list ul {
+        display: block;
         flex-direction: column;
         position: relative;
-        z-index: 10;
         width: 100%;
         height: 100vh;
         right: 0;
@@ -164,13 +170,11 @@ body {
     }
     .nav div.main_list ul li {
         position: relative;
-        z-index: 10;
         width: 100%;
         text-align: right;
     }
     .nav div.main_list ul li a {
         position: relative;
-        z-index: 99;
         text-align: center;
         width: 100%;
         font-size: 3rem;
@@ -178,7 +182,6 @@ body {
     }
     .nav div.media_button {
         position:relative;
-        z-index: 99;
         display: block;
     }
 
