@@ -4,9 +4,6 @@
     z-index:9999;
 }
 
-*{
-    z-index: 100;
-}
 html,body {
     margin: 0;
     padding: 0;
@@ -27,6 +24,7 @@ html,body {
     line-height: 65px;
     text-align: center;
     text-shadow: 3px 3px 5px #0a0a0a;
+    z-index:9999
 }
 
 .nav div.logo {
@@ -144,7 +142,7 @@ html,body {
     }
     .nav div.main_list {
         position: static;
-        z-index: 100; /* keep on top of other elements on the page */
+        z-index: 1000; /* keep on top of other elements on the page */
         width: 100%;
         height: 0;
         overflow: hidden;
@@ -199,6 +197,10 @@ html,body {
     
     .home-logo-affix:hover::after {
         left: 170px;
+    }
+
+    .navlinks{
+        z-index:9999
     }
     
 }

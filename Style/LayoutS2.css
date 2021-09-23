@@ -2,6 +2,7 @@
     font-family: -apple-system, Arial, sans-serif;
     text-decoration: none;
     color:black;
+    z-index: 1;
 }
 
 .proj-title{
