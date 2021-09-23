@@ -38,6 +38,11 @@ section .Picture{
     align-content:flex-start;
 }
 
+.WrapPic{
+    max-width: 25%;
+    height: 25%;
+}
+
 .Link {
     position: relative;    
     z-index: 1;
@@ -113,6 +118,7 @@ section .Picture{
 
     .Pictures{
         width:100%;
+        z-index: 1;
     }
     
     .Para{
