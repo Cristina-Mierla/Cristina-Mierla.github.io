@@ -124,6 +124,51 @@ html,body {
         background-color:hsl(197, 56%, 48%);
     }
 
+    .affix {
+        padding: 0;
+        background-color: #111;
+        z-index: 10;
+    }
+    
+    .home-logo-affix{
+        font-size: 62.5%;
+        border-radius:200px;
+    }
+    
+    .home-logo-affix::after {
+            content: '';
+            width: 5rem;
+            height: 1px;
+            
+            position: absolute;
+            top: 45px;
+            left: 30px;
+            background-color:hsl(0, 0%, 100%);
+            transition: all 200ms ease;
+        }
+    
+        .home-logo-affix:hover::after {
+            left: 150px;
+            background-color:hsl(197, 56%, 48%);
+        }
+    
+    
+    .myH2 {
+      text-align:center;
+      font-size: 4rem;
+    }
+    .myP {
+      text-align: justify;
+      padding-left:15%;
+      padding-right:15%;
+      font-size: 20px;
+    }
+    @media all and (max-width:700px){
+      .myP {
+        padding:2%;
+      }
+    }    
+
 
 /* Media qurey section */
 
@@ -204,52 +249,6 @@ html,body {
     }
     
 }
-
-.affix {
-    padding: 0;
-    background-color: #111;
-    z-index: 10;
-}
-
-.home-logo-affix{
-    font-size: 62.5%;
-    border-radius:200px;
-}
-
-.home-logo-affix::after {
-        content: '';
-        width: 5rem;
-        height: 1px;
-        
-        position: absolute;
-        top: 45px;
-        left: 40px;
-        background-color:hsl(0, 0%, 100%);
-        transition: all 200ms ease;
-    }
-
-    .home-logo-affix:hover::after {
-        left: 160px;
-        background-color:hsl(197, 56%, 48%);
-    }
-
-
-.myH2 {
-  text-align:center;
-  font-size: 4rem;
-}
-.myP {
-  text-align: justify;
-  padding-left:15%;
-  padding-right:15%;
-  font-size: 20px;
-}
-@media all and (max-width:700px){
-  .myP {
-    padding:2%;
-  }
-}
-
 
 /* Animation */
 /* Inspiration taken from Dicson https://codemyui.com/simple-hamburger-menu-x-mark-animation/ */
