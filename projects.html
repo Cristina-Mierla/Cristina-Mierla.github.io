@@ -33,12 +33,18 @@
                 Its purpose is to predict the risk of patients having Covid-19. This project serves as a tool
                  for doctors who work in the ICU, to better manage commodities for patients, such as rooms, 
                  beds and ventilators. Also, it may be very useful for family doctors to advice their patients
-                 suffering from Covid-19 if they should go to the hospital or not.  <br /><br />
+                 suffering from Covid-19 if they should go to the hospital or not.  <br />
+                 We received a set of 1600 records from the hospital containing data about real patients. 
+                 This dataset contains general information about the patients, such as age, gender, days spent in hospitalization, 
+                 past illnesses and conditions and also the recovery state 
+                 (cured, improved, stationary, worsened, deceased). <br />
                  One of our biggest challenge in this project was related to the data, the dataset we received was imbalanced. 
                  We tried multiple supervised machine learning models to test their accuracy, 
                  recall and precision and we decided to use a decision tree classification model.
                  We chose Decision tree because it is very fast to train, comparing to similar algorithms, it is easy to interpret, 
-                 can handle outliers automatically and require less hyperparameter tuning. 
+                 can handle outliers automatically and require less hyperparameter tuning.  <br />
+                 The model not only gives a prediction, but also a confidence level for each label. This model was trained using 80% of the data and the rest was used for testing. 
+                 In the end the model has a 77% accuracy, with a precision of over 68% for each output.                 
             </p>
 
             <div class="WrapPic">
@@ -62,27 +68,6 @@
                     </div>
                 </div> 
             </div>
-
-            <!-- <div class="Pictures">
-                <div class="PicChild">
-                    <img src="Media/RiskPred/Statistics.jpg" class="ImgSize show-on-scroll" alt="Error loading the image" />
-                </div>
-
-                <div class="PicChild">
-                    <img src="Media/RiskPred/List.jpg" class="ImgSize show-on-scroll" alt="Error loading the image" />
-                </div>
-            </div>
-
-            <div class="Pictures">
-                <div class="PicChild">
-                    <img src="Media/RiskPred/Prediction.jpg" class="ImgSize show-on-scroll" alt="Error loading the image" />
-                </div>
-
-                <div class="PicChild">
-                    <img src="Media/RiskPred/List.jpg" class="ImgSize show-on-scroll" alt="Error loading the image" />
-                </div>
-            </div> 
-        </div> -->
 
     </div>
 </section>
